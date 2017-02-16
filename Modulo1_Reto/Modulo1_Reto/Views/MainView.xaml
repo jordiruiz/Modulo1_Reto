@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Modulo1_Reto.Views.MainView">
+  <StackLayout Orientation="Vertical" Padding="0,10">
+    <Button x:Name="MyButton" Text="PULSAME!" HorizontalOptions="CenterAndExpand">
+      
+    </Button>
+    <Label x:Name="MyLabel" Text="No has pulsado todavía" HorizontalOptions="CenterAndExpand"></Label>
+  </StackLayout>
+</ContentPage>
